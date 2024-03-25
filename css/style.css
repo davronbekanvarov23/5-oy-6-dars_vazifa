@@ -1,0 +1,148 @@
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/league-spartan-v11-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2");
+}
+
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "League Spartan", "sans-serif";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.wrapper {
+  width: 1440px;
+  background-color: #eaf4f4;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 76px;
+  padding-bottom: 120px;
+}
+.header {
+  height: 156px;
+  background-image: url(../images/bg-header-desktop.svg);
+  background-color: #5ca5a5;
+}
+.job__list {
+}
+.job__templete {
+}
+.job__card {
+  background-color: #ffffff;
+  padding: 31px 40px;
+  width: 1110px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.job__card__content {
+  display: flex;
+}
+.job__image {
+  margin-right: 24px;
+}
+.job__content__list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.job__top {
+  display: flex;
+}
+.job__company {
+  color: #5ca5a5;
+  margin-right: 16px;
+  font-weight: 700;
+}
+.btn-new {
+  width: 51px;
+  background: #5ca5a5;
+  padding: 7px 8px 3px 8px;
+  margin-right: 7px;
+}
+.btn {
+  height: 24px;
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.11px;
+}
+.btn-featured {
+  padding: 7px 9px 3px 8px;
+  background: #2b3939;
+  width: 79px;
+}
+.job__title {
+  color: #2b3939;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  &:hover {
+    color: #5ca5a5;
+  }
+}
+.job__time {
+  color: #b7c4c4;
+}
+.job__content-nav {
+  margin-left: auto;
+}
+.job__content-nav__list {
+  display: flex;
+  gap: 16px;
+}
+.job__content__link {
+  background: #eaf4f4;
+  padding: 4px 9px;
+  color: #5ca5a5;
+  font-size: 16px;
+  font-weight: 700;
+  &:hover {
+    background-color: #5ca5a5;
+    color: #ffffff;
+  }
+}
+.job__role {
+}
+.job__level {
+}
+.job__languages {
+}
+.langu {
+}
+.job__tools {
+}
