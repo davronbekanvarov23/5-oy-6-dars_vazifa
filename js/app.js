@@ -53,6 +53,7 @@ data.forEach((job) => {
   });
   tools.forEach((tool) => {
     toolList.innerHTML += `<li>${tool}</li>`;
+    
   });
 
   ul.appendChild(jobCard);
