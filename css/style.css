@@ -156,7 +156,7 @@ body {
   height: 32px;
   li {
     background: #eaf4f4;
-    padding: 4px 9px;
+    padding: 0px 9px;
     color: #5ca5a5;
     font-size: 16px;
     font-weight: 700;
@@ -169,8 +169,11 @@ body {
 .job__tools__list {
   display: flex;
   gap: 16px;
+
   height: 32px;
   li {
+    padding: 0px 9px;
+
     background: #eaf4f4;
     color: #5ca5a5;
     font-size: 16px;
