@@ -153,7 +153,6 @@ body {
 .langList {
   display: flex;
   gap: 16px;
-  height: 32px;
   li {
     background: #eaf4f4;
     padding: 0px 9px;
@@ -170,7 +169,6 @@ body {
   display: flex;
   gap: 16px;
 
-  height: 32px;
   li {
     padding: 0px 9px;
 
