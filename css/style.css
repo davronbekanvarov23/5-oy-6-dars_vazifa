@@ -126,6 +126,7 @@ body {
   gap: 16px;
 }
 .job__content__link {
+  height: 32px;
   background: #eaf4f4;
   padding: 4px 9px;
   color: #5ca5a5;
@@ -136,6 +137,9 @@ body {
     color: #ffffff;
   }
 }
+
+.job__content__item {
+}
 .job__role {
 }
 .job__level {
@@ -145,4 +149,36 @@ body {
 .langu {
 }
 .job__tools {
+}
+.langList {
+  display: flex;
+  gap: 16px;
+  height: 32px;
+  li {
+    background: #eaf4f4;
+    padding: 4px 9px;
+    color: #5ca5a5;
+    font-size: 16px;
+    font-weight: 700;
+    &:hover {
+      background-color: #5ca5a5;
+      color: #ffffff;
+    }
+  }
+}
+.job__tools__list {
+  display: flex;
+  gap: 16px;
+  height: 32px;
+  li {
+    background: #eaf4f4;
+    padding: 4px 9px;
+    color: #5ca5a5;
+    font-size: 16px;
+    font-weight: 700;
+    &:hover {
+      background-color: #5ca5a5;
+      color: #ffffff;
+    }
+  }
 }

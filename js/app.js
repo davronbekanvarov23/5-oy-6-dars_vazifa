@@ -27,8 +27,8 @@ data.forEach((job) => {
   const jobTime = jobCard.querySelector(".job__time");
   const jobRole = jobCard.querySelector(".job__role");
   const jobLevel = jobCard.querySelector(".job__level");
-  const jobLanguages = jobCard.querySelector("job__languages");
-  const jobTools = jobCard.querySelector("job__tolls");
+  const langList = jobCard.querySelector(".langList");
+  const toolList = jobCard.querySelector(".job__tools__list");
 
   image.src = logo;
   jobCompany.textContent = company;
@@ -47,7 +47,13 @@ data.forEach((job) => {
   jobTime.textContent = `${postedAt} •  ${contract}  •  ${location}`;
 
   jobRole.textContent = role;
-  jobLevel.textContent = level; 
-  
+  jobLevel.textContent = level;
+  languages.forEach((lang) => {
+    langList.innerHTML += `<li>${lang}</li>`;
+  });
+  tools.forEach((tool) => {
+    toolList.innerHTML += `<li>${tool}</li>`;
+  });
+
   ul.appendChild(jobCard);
 });
